@@ -1,0 +1,78 @@
+{
+  "name": "weedc-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.2",
+    "classnames": "^2.2.6",
+    "formik": "^2.1.6",
+    "google-map-react": "^2.1.7",
+    "hybrid-crypto-js": "^0.2.4",
+    "moment": "^2.29.1",
+    "node-sass": "^4.14.1",
+    "primeflex": "1.0.0-rc.1",
+    "primeicons": "^4.0.0",
+    "primereact": "^5.0.0-rc.2",
+    "prop-types": "^15.7.2",
+    "query-string": "^6.13.5",
+    "quill": "^1.3.7",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.5.2",
+    "react-canvas-draw": "^1.1.1",
+    "react-dom": "^16.13.1",
+    "react-dropzone": "^11.2.4",
+    "react-file-icon": "^1.0.0",
+    "react-file-viewer": "^1.2.1",
+    "react-google-recaptcha": "^2.1.0",
+    "react-grid-gallery": "^0.5.5",
+    "react-password-mask": "^3.3.1",
+    "react-player": "^2.7.2",
+    "react-redux": "^7.2.1",
+    "react-responsive-modal": "^6.0.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-select": "^3.1.0",
+    "react-show-more-text": "^1.4.4",
+    "react-transition-group": "^4.4.1",
+    "react-video-thumbnail": "^0.1.3",
+    "reactstrap": "^8.6.0",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "rxjs": "^6.6.3",
+    "slugify": "^1.4.6",
+    "sweetalert": "^2.1.2",
+    "uuidv4": "^6.2.6",
+    "yup": "^0.29.3"
+  },
+  "scripts": {
+    "start": "PORT=3001 react-scripts start",
+    "start-win": "set PORT=3001 && react-scripts start",
+    "build": "react-scripts --max_old_space_size=2048 build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
